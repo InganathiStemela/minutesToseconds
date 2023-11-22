@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minutes To Seconds</title>
+
+    <link rel="stylesheet" href="/css.css">
+</head>
+<body>
+    <h1>MINUTES TO SECONDS</h1>
+
+    <form onsubmit="convertMinutesToSeconds(); return false;">
+        <label for="minutes">Minutes:</label>
+        <input type="text" id="minutes" name="minutes">
+        <span id="error" class="error"></span>
+        <br>
+        <input type="submit" value="Convert">
+    </form>
+
+    <p id="result"></p>
+
+
+
+    <script src="/javascript.js"></script>
+</body>
+</html>
